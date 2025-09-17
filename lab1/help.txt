@@ -1,0 +1,19 @@
+Show cli:
+docker exec -it my_postgres psql -U postgres -d mydb -f /docker-entrypoint-initdb.d/_1.sql
+
+Shows databases:
+docker exec -it my_postgres psql -U postgres -d mydb -c "\dt"
+
+
+
+GUI
+
+email: admin@admin.com 
+password: admin
+
+url: http://localhost:5050
+name: lab1
+host: db
+port: 5342
+username: postgres
+password: mysecret password
